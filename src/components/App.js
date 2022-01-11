@@ -1,16 +1,19 @@
 
-import './App.css';
+import Footer from "./Footer";
+import Header from "./Header";
+import MaintContent from "./MainContent";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+      <header>
+    
+
+        <Header/>
        
       </header>
+      <MaintContent/>
+    <Footer/>
     </div>
   );
 }
