@@ -1,15 +1,19 @@
+import "../styles/styles.css"
+
 const MaintContent = () => {
 
     return (
-        <div>
+        
+    <main className="backim">
             <h1> Reason I am Excited to Learn React</h1>
-            <ol>
+            <ul className="main-d">
                 <li>It's Popular Library so I will be able in with cool kids!</li>
                 <li>I am more likely to get a job as a developer If I know React</li>
                 <li> React is Modern Font end Framwork</li>
-            </ol>
-    
-        </div>
+            </ul>
+            
+            </main>
+          
     
         )
 

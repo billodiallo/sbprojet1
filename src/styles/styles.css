@@ -2,6 +2,14 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: #21222A;
+    height: 90px;
+    padding: 30PX 25px;
+    color: white;
+    
+}
+.fact > h1 {
+    color: aqua;
     
 }
 
@@ -9,6 +17,7 @@
     display: flex;
     padding: 10px;
     list-style: none;
+   
 }
 
 .footer {
@@ -23,4 +32,56 @@
 
 .nav-item-class > li {
     padding: 10px;
+    font-size: large;
+}
+
+.nav-item-class > li > a {
+    text-decoration: none;
+    color: white;
+}
+main {
+    color: white;
+    padding: 57px 27px;
+    background-image: url(../images/react-icon-large.png);
+    background-repeat: no-repeat;
+    background-position: right 75%;
+
+}
+.main > h1 {
+    margin: 0;
+    font-size: 39px;
+    letter-spacing: -0.05em;
+}
+.main-d {
+    color: white;
+}
+.main-d > li::marker {
+    font-size: 1.4em;
+    color: aqua;
+    line-height: 65px;
+    
+
+}
+.fact {
+ display: flex;
+ align-items: center;
+ font-size: large;
+}
+
+
+
+/* .backim{
+    background-image: url("../images/react3.png");
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: 75%;
+    color: white;
+
+} */
+
+body {
+    margin: 0;
+    font-family: Inter, sans-serif;
+    height: 100vh;
+    background-color: #282D35;
 }
